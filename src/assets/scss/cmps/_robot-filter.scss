@@ -1,0 +1,9 @@
+.robot-filter {
+    display: flex;
+    justify-content: space-evenly;
+    margin-block: 20px;
+    .input-container {
+        display: flex;
+        flex-direction: column;
+    }
+}

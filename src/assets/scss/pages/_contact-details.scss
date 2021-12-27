@@ -1,0 +1,15 @@
+.contact-details {
+    display: flex;
+    .details-row {
+        display: flex;
+        align-items: center;
+        padding: 8px;
+        .icon {
+            color: #ff7c7cb9;
+            margin-right: 12px;
+        }
+        h2 {
+            width: 80px;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.user-details{
+    display: flex;
+    .details-row {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 8px;
+        .icon {
+            color: #ff7c7cb9;
+            margin-right: 12px;
+        }
+        h2 {
+            width: 80px;
+            margin-right: 8px;
+        }
+        h3{
+            width: 100%;
+            text-align: right;
+            justify-self: flex-end;
+        }
+    }
+}

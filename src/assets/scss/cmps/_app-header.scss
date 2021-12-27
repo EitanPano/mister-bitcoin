@@ -1,0 +1,32 @@
+header {
+    height: 60px;
+    background-color: #ff7c7c;
+    display: flex;
+    box-shadow: 1px 0px 9px 1px #00000094;
+    li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-inline: 15px;
+        position: relative;
+        list-style: none;
+        font-weight: bold;
+        cursor: pointer;
+        &::after {
+            transition: height 0.3s ease-in-out;
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 0;
+            width: 100%;
+            background-color: rgb(218, 199, 223);
+        }
+        &:hover::after {
+            height: 4px;
+        }
+        &:hover{
+            color: rgb(218, 199, 223);;
+        }
+    }
+}
